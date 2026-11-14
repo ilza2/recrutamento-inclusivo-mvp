@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cursos, capacitações e oportunidades de emprego para jovens.">
+  <title>Recrutamento Inclusivo | Oportunidades para todos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="topo">
+    <div class="container navegacao">
+      <a class="marca" href="#" aria-label="Recrutamento Inclusivo - início">Recrutamento<span>Inclusivo</span></a>
+      <nav aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#vagas">Vagas</a>
+        <a class="nav-cta" href="#contato">Fale conosco</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero">
+      <div class="container hero-conteudo">
+        <p class="etiqueta">Educação • Qualificação • Trabalho</p>
+        <h1>Seu futuro começa com uma <span>oportunidade.</span></h1>
+        <p>Encontre cursos, capacitações e oportunidades profissionais em um só lugar. Informação acessível para aproximar jovens de novos caminhos.</p>
+        <div class="acoes">
+          <a class="botao botao-principal" href="#cursos">Explorar oportunidades</a>
+          <a class="botao botao-secundario" href="#sobre">Conhecer o projeto</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao container" id="sobre">
+      <div class="cabecalho-secao">
+        <p class="etiqueta">Nossa proposta</p>
+        <h2>Oportunidades mais perto de você</h2>
+      </div>
+      <p class="texto-central">O Recrutamento Inclusivo é uma iniciativa que busca reunir informações sobre formação e trabalho, facilitando o acesso de jovens a oportunidades que podem contribuir para seu desenvolvimento pessoal e profissional.</p>
+      <div class="cartoes-destaque">
+        <article class="cartao-destaque"><span aria-hidden="true">📚</span><h3>Aprender</h3><p>Descobrir cursos e capacitações para desenvolver novas habilidades.</p></article>
+        <article class="cartao-destaque"><span aria-hidden="true">🚀</span><h3>Crescer</h3><p>Conhecer caminhos para construir uma trajetória profissional.</p></article>
+        <article class="cartao-destaque"><span aria-hidden="true">🤝</span><h3>Conectar</h3><p>Aproximar pessoas de informações e oportunidades.</p></article>
+      </div>
+    </section>
+
+    <section class="secao secao-clara" id="cursos">
+      <div class="container">
+        <div class="cabecalho-secao">
+          <p class="etiqueta">Formação</p>
+          <h2>Cursos e capacitações</h2>
+          <p>Exemplos de áreas para começar a desenvolver suas habilidades.</p>
+        </div>
+        <div class="grade" id="lista-cursos">
+          <article class="cartao"><span class="tag">Tecnologia</span><h3>Informática básica</h3><p>Aprenda noções de computador, internet e ferramentas digitais.</p><p class="detalhe">Nível: iniciante</p></article>
+          <article class="cartao"><span class="tag">Carreira</span><h3>Preparação para entrevistas</h3><p>Desenvolva sua apresentação pessoal e conheça etapas de seleção.</p><p class="detalhe">Nível: iniciante</p></article>
+          <article class="cartao"><span class="tag">Administração</span><h3>Rotinas administrativas</h3><p>Conheça atividades de organização, atendimento e controle.</p><p class="detalhe">Nível: introdutório</p></article>
+        </div>
+        <p class="aviso">As opções acima são exemplos demonstrativos. Consulte a instituição responsável para confirmar inscrições, datas e disponibilidade.</p>
+      </div>
+    </section>
+
+    <section class="secao container" id="vagas">
+      <div class="cabecalho-secao">
+        <p class="etiqueta">Mercado de trabalho</p>
+        <h2>Oportunidades profissionais</h2>
+        <p>Veja exemplos de oportunidades que poderão ser divulgadas na plataforma.</p>
+      </div>
+      <div class="grade">
+        <article class="cartao vaga"><span class="tag">Exemplo de oportunidade</span><h3>Jovem aprendiz – área administrativa</h3><p>Atuação de apoio em organização de documentos e atendimento.</p><p class="detalhe">Requisitos e inscrições: consultar a empresa anunciante.</p></article>
+        <article class="cartao vaga"><span class="tag">Exemplo de oportunidade</span><h3>Estágio – suporte de tecnologia</h3><p>Oportunidade para conhecer atividades de suporte e tecnologia.</p><p class="detalhe">Requisitos e inscrições: consultar a empresa anunciante.</p></article>
+      </div>
+      <p class="aviso">Estas vagas são ilustrativas e não representam anúncios reais ou processos seletivos abertos.</p>
+    </section>
+
+    <section class="secao contato" id="contato">
+      <div class="container contato-conteudo">
+        <div>
+          <p class="etiqueta">Vamos conversar?</p>
+          <h2>Quer sugerir uma oportunidade?</h2>
+          <p>Envie uma mensagem para demonstrar interesse ou sugerir cursos e oportunidades para divulgação.</p>
+        </div>
+        <form id="form-contato">
+          <label for="nome">Seu nome</label>
+          <input id="nome" name="nome" type="text" autocomplete="name" required>
+          <label for="email">Seu e-mail</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+          <button class="botao botao-principal" type="submit">Enviar mensagem</button>
+          <p id="retorno-form" class="retorno" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container rodape">
+      <p><strong>Recrutamento Inclusivo</strong> — oportunidades para aprender e crescer.</p>
+      <p>Projeto acadêmico | MVP em desenvolvimento</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
