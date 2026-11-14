@@ -29,6 +29,9 @@ Não é necessário instalar dependências.
 
 ## Observação
 Os cursos e as vagas apresentados são exemplos ilustrativos. O formulário funciona apenas como demonstração no navegador e ainda não envia dados para um servidor.
+## Etapa de desenvolvimento
+
+Nesta etapa, foi criada a branch desenvolvimento para organizar e acompanhar as melhorias da plataforma Recrutamento Inclusivo.
 
 ## Status
 MVP inicial em desenvolvimento.
